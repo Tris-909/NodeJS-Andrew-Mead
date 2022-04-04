@@ -9,3 +9,5 @@ const fs = require('fs');
 
 fs.writeFileSync('text.txt', 'File content');
 ```
+
+You can also use `module.exports =` to export variable, function from a file. Then from the file you want to import the thing you just export, you can use `const something = require('path-to-the-file');`. Then you can use that thing from the file you import.
